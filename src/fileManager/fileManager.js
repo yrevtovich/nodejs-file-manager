@@ -58,7 +58,7 @@ class FileManager {
     }
   };
 
-  exit = () => this.rl.close();
+  _exit = () => this.rl.close();
 
   up = () => {
     this.workingDirectory = getParentDirectory(this.workingDirectory);

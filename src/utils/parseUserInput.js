@@ -1,4 +1,4 @@
-const normalizeCommand = (command) => command.replace('.', '');
+const normalizeCommand = (command) => command.replace('.', '_');
 
 const normalizeArguments = (args) => args.filter(Boolean).map((arg) => arg.trim());
 
