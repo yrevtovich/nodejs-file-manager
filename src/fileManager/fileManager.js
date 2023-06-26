@@ -7,7 +7,7 @@ import { parseUserInput } from '../utils/parseUserInput.js';
 import {
   printExitMessage, printWelcomeMessage, printDirectory, print,
 } from '../utils/print.js';
-import { getParentDirectory, getRelatedDirectory, printFileList } from '../nwd/workingDirectory.js';
+import { getParentDirectory, getRelatedDirectory, printFileList } from '../nwd/index.js';
 import { printHash } from '../hash/getHash.js';
 
 class FileManager {
